@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="skills.html">Skills</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+
+    <main>
+        <form action="/contact-me">
+            <fieldset>
+                <legend>Contact me</legend>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div>
+                    <p>Which skill do you have?</p>
+                    <input type="checkbox" name="html" id="html">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" name="css" id="css">
+                    <label for="css">CSS</label>
+                    <input type="checkbox" name="js" id="js">
+                    <label for="js">JavaScript</label>
+                </div>
+
+                <div>
+                    <label for="details">Give me further details</label><br>
+                    <textarea name="details" id="details" cols="30" rows="10"></textarea>
+                </div>
+                
+                <div>
+                    <button>Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
